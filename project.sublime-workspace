@@ -1,0 +1,809 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"wi",
+				"wizard"
+			],
+			[
+				"defaul",
+				"defaultValue"
+			],
+			[
+				"q",
+				"qId"
+			],
+			[
+				"hi",
+				"highcharts-div"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"cat",
+				"categories"
+			],
+			[
+				"p",
+				"push"
+			],
+			[
+				"get",
+				"getMeasures"
+			],
+			[
+				"c",
+				"csv"
+			],
+			[
+				"for",
+				"formCSV"
+			],
+			[
+				"dim",
+				"dim1"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"da",
+				"qDataPages"
+			],
+			[
+				"high",
+				"highcharts-div"
+			],
+			[
+				"Hi",
+				"highcharts"
+			],
+			[
+				"chart",
+				"chartdata"
+			],
+			[
+				"ge",
+				"getEmbeddableJSON"
+			],
+			[
+				"hig",
+				"highcharts-more"
+			],
+			[
+				"mod",
+				"modules"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bol",
+				"bold"
+			],
+			[
+				"wizard",
+				"wizardView"
+			],
+			[
+				"place",
+				"placeDetailsKPIData"
+			],
+			[
+				"Sii",
+				"Siivous"
+			],
+			[
+				"Huolto",
+				"Huoltotyöt"
+			],
+			[
+				"cle",
+				"clear"
+			],
+			[
+				"sel",
+				"selectMatch"
+			],
+			[
+				"Sele",
+				"selectMatch"
+			],
+			[
+				"sa",
+				"salesrepslist-details"
+			],
+			[
+				"salesreps",
+				"salesrepslist-main"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pare",
+				"parent"
+			],
+			[
+				"ta",
+				"tapaturmataajuus"
+			],
+			[
+				"Ta",
+				"Tapaturmat"
+			],
+			[
+				"Tapatu",
+				"tapaturmat"
+			],
+			[
+				"Hyötykäyttöjäte",
+				"Hyötykäyttöjäteprosentti"
+			],
+			[
+				"parent",
+				"parentElement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 1505,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "highcharts.js",
+			"settings":
+			{
+				"buffer_size": 6231,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chart.json",
+			"settings":
+			{
+				"buffer_size": 1381,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "adapter.js",
+			"settings":
+			{
+				"buffer_size": 5909,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "properties.js",
+			"settings":
+			{
+				"buffer_size": 2939,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "init.js",
+			"settings":
+			{
+				"buffer_size": 341,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "define( [], function () {"
+			}
+		},
+		{
+			"file": "wizardmodal.html",
+			"settings":
+			{
+				"buffer_size": 336,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "notes",
+			"settings":
+			{
+				"buffer_size": 412,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wbfolder.wbl",
+			"settings":
+			{
+				"buffer_size": 96,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/Highcharts/highcharts"
+	],
+	"file_history":
+	[
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/Highcharts/highcharts/highcharts.qext",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/Highcharts/highcharts/wbfolder.wbl",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/Sato/Content/creative.css",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/Sato/Sato.html",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/Sato/Scripts/qlik.js",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/ConsumerMobile/ConsumerMobile.html",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/ConsumerMobile/Scripts/qlik.js",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/ConsumerMobile/Content/creative.css",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/Skanska/Skanska.html",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/Skanska/Content/creative.css",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/Skanska/Scripts/qlik.js",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/Mobile/Mobile.html",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/Mobile/Scripts/qlik.js",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/tietoanalyser/TietoAnalyser.css",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/tietoanalyser/TietoAnalyser.js",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/tietoanalyser/tietoanalyser.qext",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/tietoanalyser/modal.html",
+		"/C/Users/bip/Desktop/Koodipaja_Notes_100517.txt",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/tietoanalyser/wbfolder.wbl",
+		"/C/SQLite/aalto-huutokaupat.sql",
+		"/D/F_ppkl_kaynnit.csv",
+		"/C/Users/bip/Desktop/VolvoNotes",
+		"/C/MongoDB/mongod.cfg",
+		"/C/Users/bip/Desktop/03_Cust_Map_App/SGOpenStreetMaps v2/mapbox-gl-dev.js",
+		"/C/Users/bip/Downloads/22988f5ec9e22e68827c4f0aafd322b08735ca5738dbc9bb9fd863aaf5b0ac0b/disk.img",
+		"/C/Users/bip/Desktop/volvo_notes",
+		"/C/Users/bip/Desktop/carea.html",
+		"/C/QlikWoowMaker/Demo/qliksense.js",
+		"/D/Kartat/skripti",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/GoogleMaps-Sense-master/GoogleMaps-Sense-master/GoogleMaps-Sense.js",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/GoogleMaps-Sense-master/GoogleMaps-Sense-master/src/properties.js",
+		"/D/Fennia/modifioinnit",
+		"/D/Fennia/aktiviteetit",
+		"/D/Fennia/kpi_skripti",
+		"/D/Fennia/skriptit",
+		"/C/Users/bip/Desktop/03_Cust_Map_App/SGOpenStreetMaps v2/sg-osm-qs2.css",
+		"/C/Users/bip/Desktop/03_Cust_Map_App/SGOpenStreetMaps v2/mapbox-gl.css",
+		"/C/Users/bip/Desktop/03_Cust_Map_App/SGOpenStreetMaps v2/sg-osm-qs2-properties.js",
+		"/C/Users/bip/Desktop/03_Cust_Map_App/SGOpenStreetMaps v2/sg-osm-qs2.js",
+		"/D/HameenLimusiini/index.html",
+		"/C/Users/bip/Desktop/03_Cust_Map_App/SGOpenStreetMaps v2/mapbox-gl.js",
+		"/D/custom/f8da9d4e-8d64-4391-87f5-f341f413c85a.json",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/custom/f8da9d4e-8d64-4391-87f5-f341f413c85a.json",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/weather/714b2ea6-abf1-4ec7-a6fa-1f90ecd26f85.json",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/custom/custom/fa50f8a0-fde2-4d63-a16f-8687cd8278e8.json",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/custom/custom/custom.qext",
+		"/C/Users/bip/Documents/Qlik/Sense/Extensions/hannulle/custom.qext",
+		"/C/Users/bip/Documents/Omat/Projektit/Omat/Widgetit/KPI Compare/KPI_Compare.css",
+		"/C/Users/bip/Downloads/CUSTOM/f8da9d4e-8d64-4391-87f5-f341f413c85a.html",
+		"/C/Users/bip/Documents/Omat/Projektit/Omat/Widgetit/KPI Compare/KPI_Compare.html",
+		"/C/Users/bip/Documents/Omat/Projektit/Omat/Widgetit/KPI Compare/KPI_Compare.sublime-project"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getWizardData",
+			"dimensions",
+			"formCSV",
+			"data",
+			"dimensions",
+			"hq",
+			"app",
+			"hq",
+			"app",
+			"model",
+			"dataArray",
+			"details-modal-right",
+			"details-modal-left",
+			"qlik",
+			"update",
+			"salesreps",
+			"Teko-regular",
+			"sales",
+			"SalesReps",
+			"salesrep",
+			"salesreps",
+			"font-family: 'Kone_information', 'Helvetica Neue', Arial, sans-serif !important;",
+			" font-family: 'Kone_information', 'Helvetica Neue', Arial, sans-serif;",
+			"filters",
+			"FF",
+			"graph",
+			"AU Orders and Customersaajuus",
+			"Skanska Orders and Customersaajuus",
+			"Jätekustannukset (€)",
+			"Jätteen määrä tonneissa",
+			"Rakennusjäte tonneissa",
+			"Hyötykäyttöjäte prosentti",
+			"Tapaturmat",
+			"Jätemittarit",
+			"Customer and Quality",
+			"Growth",
+			"Customer and Quality",
+			"customerandquality",
+			"sales",
+			"growth",
+			"tech",
+			"technics",
+			"tech",
+			"Technician",
+			"rep",
+			"tech",
+			"techs",
+			"Technicians",
+			"placeTechnicians",
+			"getTechnicians",
+			"placeSele",
+			"selectDefa",
+			"SelectDefa",
+			"technics",
+			"Skanska_logo",
+			"positive",
+			"kone",
+			"placeRun",
+			"CPR03",
+			"blue"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"values",
+			"Telefon Web Black",
+			"font-family: 'Teko-Regular', sans-serif !important;",
+			"font-family: 'Teko-Regular', sans-serif;",
+			"New Customers",
+			"Total Shipments",
+			"Margin %",
+			"Sales $",
+			"TY vs LY Sales",
+			"Sales vs Budget %",
+			"Orders and Customers",
+			"Sales Performance",
+			"shipments",
+			"sales",
+			"shipments",
+			"sales",
+			"salesreps",
+			"SalesRep",
+			"rep",
+			"reps",
+			"Sales Reps",
+			"placeSalesReps",
+			"getSalesReps"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1415,
+								1415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 331.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "highcharts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								812,
+								812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chart.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								564,
+								564
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 74.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "adapter.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1654,
+								1654
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 565.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "properties.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2402,
+								2402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 559.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "init.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"auto_name": "define( [], function () {",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "wizardmodal.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "notes",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								379,
+								379
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "wbfolder.wbl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

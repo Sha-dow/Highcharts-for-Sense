@@ -1,0 +1,16 @@
+{
+	"name": "Highcharts",
+	"description": "Highcharts integration for Qlik Sense. See https://www.highcharts.com/",
+	"icon": "line-chart",
+	"type": "visualization",
+	"version": "0.0.1",
+	"author": "Hannu Ranta - Qlik Finland",
+	"homepage": "<TO BE ADDED>",
+	"keywords": "qlik-sense, visualization, highcharts",
+	"license": "MIT",
+	"repository": "<TO BE ADDED>",
+	"preview" : "<TO BE ADDED>",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
