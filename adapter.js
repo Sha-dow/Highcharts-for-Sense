@@ -18,60 +18,141 @@ define([], function() {
 		}
 	};
 
-	this.parseData = function(chart) {
+	this.parseData = function(chart, pivot) {
 		var categories = [];
 		var series = [];
 
-		//Init categories array
-		for(var i = 0; i < dimensions.length; i++) {
-			var cat = [];
-			categories.push(cat);
-		}	
+		var values = [];
 
-		//Init measures array
-		for(var i = 0; i < measures.length; i++) {
-			var ser = [];
-			series.push(ser);
-		}		
+		var labels = dimensions.concat(measures);
 
-		//Fill dimension and measures arrays
-		for(var i = 0; i < data.length; i++) {
+		//Make sure that all labels are unique.
+		for(var i = 0; i < labels.length; i++) {
+			var similar = false;
 
-			for(var j = 0; j < dimensions.length; j++) {
-				categories[j].push(data[i][j].qText);	
-			}
-			
-			for(var j = 0; j < measures.length; j++) {
-				series[j].push(data[i][(dimensions.length + j)].qNum);	
+			for(var j = 0; j < i; j++) {
+				if (labels[i] == labels[j]) {
+					labels[i] = labels[i] + ' ' + i;
+				}
 			}
 		}
 
-		//TODO: ADD SUPPORT FOR 2 DIMENSIONAL DATA!!!!
-		chart.xAxis[0].setCategories(categories[0]);
+		if(dimensions.length == 2 && measures.length == 1 && pivot == true) { 
+			for(var i = 0; i < hq.qDataPages[0].qMatrix.length; i++) {
+				var object = {};
+				for(var j = 0; j < hq.qDataPages[0].qMatrix[i].length; j++) {
+					if(j < dimensions.length) {
+						object[labels[j]] = hq.qDataPages[0].qMatrix[i][j].qText; 
+					}
+					else {
+						object[labels[j]] = hq.qDataPages[0].qMatrix[i][j].qNum;
+					}
+				}
+				values.push(object);
+			}
 
-		for(var i = 0; i < measures.length; i++) {
-			chart.series[i].setData(series[i]);
+			var pivoted = getPivotArray(values);
+
+			//Init categories array
+			for(var i = 0; i < pivoted.length; i++) {
+				var object = {};
+				object.name = pivoted[i][0];
+
+				object.categories = pivoted[0];
+				categories.push(object);
+			}
+			
+			//init series array
+			for (var i = 0; i < categories[0].categories.length; i++) {
+				var object = {};
+				object.name = categories[0].categories[i];
+				object.data = [];
+				series.push(object);
+			}
+			
+			for(var i = 0; i < pivoted.length; i++) {
+				for(var j = 0; j < pivoted[i].length; j++) {
+					series[j].data.push(pivoted[i][j]);
+				}
+			}
+
+			chart.xAxis[0].setCategories([]);
+			chart.xAxis[0].setCategories(series[0].data);
+			
+			//Clear series before assigning new values
+			for(var i = 1; i < chart.series.length; i++) {
+				chart.series[i].setData([]);
+				chart.series[i].name = '';
+			}
+
+			for(var i = 1; i < series.length; i++) {
+				chart.series[i-1].setData(series[i].data);
+				chart.series[i-1].name = series[i].name;
+			}
+		}
+		else {
+			//Init categories array
+			for(var i = 0; i < dimensions.length; i++) {
+				var cat = [];
+				categories.push(cat);
+			}	
+
+			//Init measures array
+			for(var i = 0; i < measures.length; i++) {
+				var ser = [];
+				series.push(ser);
+			}		
+
+			//Fill dimension and measures arrays
+			for(var i = 0; i < data.length; i++) {
+
+				for(var j = 0; j < dimensions.length; j++) {
+					categories[j].push(data[i][j].qText);	
+				}
+				
+				for(var j = 0; j < measures.length; j++) {
+					series[j].push(data[i][(dimensions.length + j)].qNum);	
+				}
+			}
+
+			//TODO: ADD SUPPORT FOR MULTIDIMENSIONAL DATA!!!!
+			chart.xAxis[0].setCategories([]);
+			chart.xAxis[0].setCategories(categories[0]);
+
+			//Clear series before assigning new values
+			for(var i = 1; i < chart.series.length; i++) {
+				chart.series[i].setData([]);
+			}
+
+			for(var i = 0; i < measures.length; i++) {
+				chart.series[i].setData(series[i]);
+			}
 		}
 	};
 
 	//Add events to chart
 	this.addEvents = function(chart, view) {
-		chart.series.forEach(function(s){
-			s.options.point.events = {
-			    click: function(){
-			       var selected = chart.xAxis[0].categories.indexOf(this.category);
+		if(dimensions.length == 2 && measures.length == 1 && pivot == true) {
+			//Pivoted graph is a special case. TODO: Add event handling
+		}
+		else {
+			chart.series.forEach(function(s){
+				s.options.point.events = {
+				    click: function(){
+				       var selected = chart.xAxis[0].categories.indexOf(this.category);
 
-			       if(!this.selected) {
-			       		this.select(true, true);
-			       }
-			       else {
-			       		this.select(false, true);
-			       }
-			       
-			       view.selectValues(0, [selected], true);
-		    	}
-		  	}
-		})
+				       if(!this.selected) {
+				       		this.select(true, true);
+				       }
+				       else {
+				       		this.select(false, true);
+				       }
+				       
+				       view.selectValues(0, [selected], true);
+			    	}
+			  	}
+			})
+		}
 	};
 
 	//Get paged data 
@@ -123,8 +204,8 @@ define([], function() {
 
 		sampleData = "";
 
-		//If hypercube contains less data than limit, take all data
-		if(limit > hq.qDataPages[0].qMatrix.length) {
+		//If hypercube contains less data than limit or pivoted mode is on, take all data
+		if(limit > hq.qDataPages[0].qMatrix.length || (dimensions.length == 2 && measures.length == 1 && pivot == true)) {
 			lim = hq.qDataPages[0].qMatrix.length;
 		}
 
@@ -160,6 +241,7 @@ define([], function() {
 function formCSV(values, labels, pivot) {
 
 	var csv = "";
+	console.log(values);
 	
 	if(pivot == false) {
 		//Form CSV header
@@ -183,7 +265,9 @@ function formCSV(values, labels, pivot) {
 			    	csv += '\"' + values[i][keys[j]] + '\"';
 			    }
 			    else {
-			    	csv += values[i][keys[j]];
+			    	if(values[i][keys[j]] != 'NaN') {
+			    		csv += values[i][keys[j]];
+			    	}
 			    }
 
 			    if(j < labels.length - 1) {

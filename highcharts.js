@@ -142,13 +142,17 @@ define( [
             	if(app.pr.chart != null) {
             		div.innerHTML = '';
             		var chart = new Highcharts.Chart('highcharts-div-' + layout.qInfo.qId, JSON.parse(app.pr.chart));
-        			
+
         			if(adapter.getData(this, $element, layout)) {
         				adapter.getDimensions();
 						adapter.getMeasures();
 
-						adapter.parseData(chart);
+						adapter.parseData(chart, app.pr.pivot);
 						adapter.addEvents(chart, this);
+
+						if(app.pr.size == true) {
+							chart.setSize(model.$element.width(), model.$element.height());
+						}
         			}
             	}
             	else {

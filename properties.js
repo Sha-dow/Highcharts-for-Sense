@@ -42,7 +42,12 @@ define( [], function () {
     			type: "items",
     			label: "Styles",
     			items: {
-
+                    Size: {
+                            type: "boolean",
+                            label: "Set dynamic size",
+                            ref: "pr.size",
+                            defaultValue: true
+                    },
     			}
     		},
     		wizard: {
